@@ -168,9 +168,9 @@ body {
 
 .main-header .header-content {
   max-width: 1200px; /* Обмеження ширини вмісту хедера */
-  margin: 0 auto; /* Центрування вмісту */
+  margin: 0 auto; 
   display: flex;
-  justify-content: center; /* Центруємо вміст, якщо нема інших елементів */
+  justify-content: center; 
   align-items: center;
 }
 
@@ -203,18 +203,18 @@ body {
 }
 
 .main-header nav a:hover {
-  color: #ffd700; // Золотий колір для ховеру
+  color: #ffd700; 
 }
 */
 
 /* --- СТИЛІ ДЛЯ FOOTER --- */
 .main-footer {
-  background-color: #004d99; /* Той самий синій колір */
+  background-color: #004d99; 
   color: white;
   padding: 20px;
   text-align: center;
   box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2); /* Тінь зверху */
-  margin-top: auto; /* Дозволяє футеру "прилипати" до низу, якщо контенту мало */
+  margin-top: auto; 
 }
 
 .main-footer .footer-content {
@@ -238,7 +238,7 @@ body {
   color: #ffd700;
 }
 
-/* Оновлення для body, щоб header і footer були частиною flex-розмітки */
+
 body {
   display: flex;
   flex-direction: column; /* Розміщуємо елементи по вертикалі */
@@ -258,7 +258,7 @@ body {
   }
 }
 
-/* --- СТИЛІ ДЛЯ HEADER --- */
+
 .main-header {
   background-color: #004d99; /* Темно-синій колір Євробачення */
   color: white;
@@ -268,7 +268,7 @@ body {
 }
 
 .main-header .header-content {
-  max-width: 1200px; /* Обмеження ширини вмісту хедера */
+  max-width: 1200px;
   margin: 0 auto; /* Центрування вмісту */
   display: flex;
   justify-content: center; /* Центруємо вміст, якщо нема інших елементів */
@@ -308,14 +308,14 @@ body {
 }
 */
 
-/* --- СТИЛІ ДЛЯ FOOTER --- */
+
 .main-footer {
   background-color: #004d99; /* Той самий синій колір */
   color: white;
   padding: 20px;
   text-align: center;
   box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2); /* Тінь зверху */
-  margin-top: auto; /* Дозволяє футеру "прилипати" до низу, якщо контенту мало */
+  margin-top: auto;
 }
 
 .main-footer .footer-content {
@@ -352,7 +352,7 @@ body {
   width: 100%;
 }
 
-/* Додатковий медіа-запит для колонтитулів на малих екранах */
+
 @media (max-width: 600px) {
   .main-header h1 {
     font-size: 1.5em; /* Зменшуємо розмір заголовка на мобільних */
@@ -360,7 +360,7 @@ body {
 }
 
 /**/
-/* ... (Всі ваші існуючі стилі body, header, footer, content, video-wrapper, lyrics-container, lyrics-column залишаються як у попередній відповіді) ... */
+
 
 /* Оновлення для .container та .countries-list для адаптивності */
 .container {
@@ -395,8 +395,7 @@ body {
     border-bottom: 1px solid #ccc; /* Роздільник */
   }
 
-  /* На мобільних список країн може бути у вигляді випадаючого списку або прокручуваного меню */
-  /* Для цього може знадобитися JavaScript для керування видимістю dropdown */
+  
   .countries-list #country-search {
     margin-bottom: 5px; /* Менший відступ */
   }
@@ -407,24 +406,20 @@ body {
     max-height: 250px; /* Обмеження висоти для скролу */
   }
 
-  /* Якщо ви хочете, щоб dropdown з'являвся при фокусі */
-  /* JS має переключати display: block/none для .dropdown */
 
-  /* Стилі для основного контенту на мобільних */
   .content {
     padding: 10px; /* Менший відступ для контенту */
   }
 
-  /* ... (Всі інші медіа-запити для lyrics-container та lyrics-column залишаються) ... */
+
 }
 
-/**/
-/* Додайте це на початку вашого styles.css */
+
 html {
   scroll-behavior: smooth; /* Плавна прокрутка до якірного посилання */
 }
 
-/* ... (Ваші існуючі стилі для header, footer, container, etc.) ... */
+
 
 /* Кнопка "Нагору" (тепер це якірне посилання) */
 #backToTopBtn {
