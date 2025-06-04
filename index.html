@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Євробачення 2025</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="main-header">
+      <div class="header-content">
+        <h1><a href="#" class="site-title">Євробачення 2025</a></h1>
+      </div>
+    </header>
+    <div class="container">
+      <aside class="countries-list">
+        <input
+          type="text"
+          id="country-search"
+          placeholder="Введіть або оберіть країну..."
+          oninput="filterCountries()"
+          onclick="showDropdown()"
+        />
+        <div id="dropdown" class="dropdown"></div>
+      </aside>
+
+      <main class="content">
+        <div id="video-section" class="video-wrapper">
+          <iframe
+            id="video-frame"
+            src="https://www.youtube.com/embed/xPSn888JAFU?si=SOWlxS2EbgUBGkui"
+            frameborder="0"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <h2 id="singer-name">Фінал</h2>
+        <p id="singer-info"></p>
+        <div class="info-section">
+          <h3 id="song"></h3>
+          <p id="song-info">
+            Пісенний конкурс «Євробачення 2025» — 69-й пісенний конкурс, що
+            відбувся в Базелі, Швейцарія, після перемоги Nemo з піснею «The
+            Code» на конкурсі 2024 року. Півфінали пройшли 13 та 15 травня,
+            фінал — 17 травня 2025 року. Швейцарія приймала конкурс утретє,
+            після своєї останньої перемоги у 1988 році та Євробачення 1989, що
+            відбулося в Лозанні. Ведучими події стали Гейзел Брюггер і Сандра
+            Штудер, а у фіналі до них приєдналася Мішель Гунцікер.
+          </p>
+        </div>
+        <div id="lyrics-section" class="lyrics-container">
+          <div class="lyrics-column">
+            <h3></h3>
+            <p id="original-lyrics"></p>
+          </div>
+          <div class="lyrics-column">
+            <h3></h3>
+            <p id="translated-lyrics"></p>
+          </div>
+        </div>
+      </main>
+    </div>
+    <footer class="main-footer">
+      <div class="footer-content">
+        <p>© 2025 Eurovision Fan Project. Усі права захищено.</p>
+        <p>Зроблено з любов'ю до Євробачення.</p>
+      </div>
+    </footer>
+    <a href="#video-section" id="backToTopBtn" title="До відео">↑</a>
+    <script src="script.js"></script>
+  </body>
+</html>
